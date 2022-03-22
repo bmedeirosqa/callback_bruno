@@ -1411,6 +1411,21 @@ const customers = [
       content: "Invalid avatar link",
     },
     worker: "test-four@tdl.com",
+  },
+  {
+    customer_id: 64,
+    avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
+    display_name: "No details, no channels",
+    channels: [  ],
+    links: [
+      {
+        type: "Facebook",
+        value: "https://facebook.com",
+        display_name: "Social Media Profile",
+      },
+    ],
+    details: {   },
+    worker: "test-two@tdl.com",
   }
 ];
 
