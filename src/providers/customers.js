@@ -1416,7 +1416,7 @@ const customers = [
     customer_id: 64,
     avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
     display_name: "No details, no channels",
-    channels: [  ],
+    channels: [   ],
     links: [
       {
         type: "Facebook",
@@ -1424,7 +1424,26 @@ const customers = [
         display_name: "Social Media Profile",
       },
     ],
-    details: {   },
+    details: { },
+    worker: "test-two@tdl.com",
+  },
+  {
+    customer_id: 65,
+    avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
+    display_name: "Missing info",
+    channels: [ 
+        { type: "email", value: "" },
+        { type: "", value: "+12513129342" },
+    ],
+    links: [
+      {
+        type: "",
+        display_name: "Social Media Profile",
+      },
+    ],
+    details: { 
+      content: "",
+    },
     worker: "test-two@tdl.com",
   }
 ];
