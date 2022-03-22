@@ -1445,6 +1445,25 @@ const customers = [
       content: "",
     },
     worker: "test-two@tdl.com",
+  },
+  {
+    customer_id: 66,
+    avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
+    display_name: "Null info",
+    channels: [ 
+        { type: null, value: null },
+        { type: null, value: null },
+    ],
+    links: [
+      {
+        type: null,
+        display_name: null,
+      },
+    ],
+    details: { 
+      content: null,
+    },
+    worker: "test-two@tdl.com",
   }
 ];
 
