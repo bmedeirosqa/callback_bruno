@@ -37,7 +37,7 @@ const handleGetTemplatesByCustomerIdCallback = async (req, res) => {
         display_name: 'Openers', // Category name
         templates: [
             { content: compileTemplate(OPENER_NEXT_STEPS, customerDetails) , whatsAppApproved: false}, // Compiled template
-            { content: compileTemplate(OPENER_NEW_PRODUCT, customerDetails) , whatsAppApproved: true},
+            { content: compileTemplate(OPENER_NEW_PRODUCT, customerDetails) , whatsAppApproved: false},
             { content: compileTemplate(OPENER_ON_MY_WAY, customerDetails), whatsAppApproved: true },
             { content: compileTemplate(OPENER_ON_MY_HOUSE, customerDetails), whatsAppApproved: true },
         ]
