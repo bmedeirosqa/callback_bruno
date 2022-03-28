@@ -1432,17 +1432,15 @@ const customers = [
     avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
     display_name: "Missing info",
     channels: [ 
-        { type: "email", value: "" },
-        { type: "", value: "+12513129342" },
+      
     ],
     links: [
       {
-        type: "",
-        display_name: "Social Media Profile",
+    
       },
     ],
     details: { 
-      content: "",
+
     },
     worker: "test-two@tdl.com",
   },
