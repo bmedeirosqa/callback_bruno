@@ -40,6 +40,7 @@ const handleGetTemplatesByCustomerIdCallback = async (req, res) => {
             { content: compileTemplate(OPENER_NEW_PRODUCT, customerDetails) , whatsAppApproved: false},
             { content: compileTemplate(OPENER_ON_MY_WAY, customerDetails), whatsAppApproved: true },
             { content: compileTemplate(OPENER_ON_MY_HOUSE, customerDetails), whatsAppApproved: true },
+            { content: compileTemplate(OPENER_TEST_NOT_APPROVED_BY_WHASTAPP, customerDetails), whatsAppApproved: true },
         ]
     };
     const repliesCategory = {
@@ -73,6 +74,7 @@ const OPENER_NEXT_STEPS = 'Hello {{Name}} we have now processed your documents a
 const OPENER_NEW_PRODUCT = 'Hello {{Name}} we have a new product out which may be of interest to your business. Drop me a message. {{Author}}.';
 const OPENER_ON_MY_WAY ='Just to confirm I am on my way to your office. {{Name}}.';
 const OPENER_ON_MY_HOUSE = 'Just to confirm I am on my way to your house. {{Name}}.';
+const OPENER_TEST_NOT_APPROVED_BY_WHASTAPP = 'Testing. {{Name}}.';
 
 const REPLY_SENT = 'This has now been sent. {{Author}}.';
 const REPLY_RATES = 'Our rates for any loan are 20% or 30% over $30,000. You can read more at https://example.com. {{Author}}.';
