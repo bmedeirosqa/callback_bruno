@@ -40,7 +40,7 @@ const handleGetTemplatesByCustomerIdCallback = async (req, res) => {
             { content: compileTemplate(OPENER_NEW_PRODUCT, customerDetails) , whatsAppApproved: false},
             { content: compileTemplate(OPENER_ON_MY_WAY, customerDetails), whatsAppApproved: true },
             { content: compileTemplate(OPENER_ON_MY_HOUSE, customerDetails), whatsAppApproved: true },
-            { content: compileTemplate(OPENER_TEST_NOT_APPROVED_BY_WHASTAPP, customerDetails), whatsAppApproved: false },
+            { content: compileTemplate(OPENER_TEST_NOT_APPROVED_BY_WHASTAPP, customerDetails), whatsAppApproved: true },
         ]
     };
     const repliesCategory = {
