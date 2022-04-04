@@ -1569,7 +1569,27 @@ details: {
   title: "Information",
   content: "Invalid avatar link",
 },
-  worker: "test-one@tdl.com",
+  worker: "test-one@tdl.com,"
+},
+{
+  customer_id: 71,
+  avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
+  display_name: "chat-test-two)",
+  channels: [ 
+    { type: "chat", value: "test-two@tdl.com" },
+  ],
+  links: [
+    {
+    type: "Facebook",
+    value: "https://facebook.com",
+    display_name: "Social Media Profile",
+  },
+],
+details: {
+  title: "Information",
+  content: "Invalid avatar link",
+},
+  worker: "test-three@tdl.com"
 }
 ];
 
