@@ -1508,7 +1508,7 @@ details: {
   worker: "test-two@tdl.com",
 },
 {
-  customer_id: 69-123-789,
+  customer_id: "69-123-789",
   avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
   display_name: "123789 - id with dashes (69-123-789)",
   channels: [ 
@@ -1530,7 +1530,7 @@ details: {
   worker: "test-two@tdl.com",
 },
 {
-  customer_id: 70_123,
+  customer_id: "70_123",
   avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
   display_name: "special-characters!@#123 - id with underscore (70_123)",
   channels: [ 
