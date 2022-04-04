@@ -1447,7 +1447,7 @@ const customers = [
   {
     customer_id: 66/12,
     avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
-    display_name: "Null info - id with slash",
+    display_name: "Null info - id with slash (66/12)",
     channels: [ 
         { type: null, value: null },
         { type: null, value: null },
@@ -1510,7 +1510,7 @@ details: {
 {
   customer_id: 69-123-789,
   avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
-  display_name: "123789 - id with dashes",
+  display_name: "123789 - id with dashes (69-123-789)",
   channels: [ 
     { type: "email", value: "medeiros.braga.bruno@gmail.com" },
     { type: "sms", value: "+5555984025819" },
@@ -1532,7 +1532,7 @@ details: {
 {
   customer_id: 70_123,
   avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
-  display_name: "special-characters!@#123 - id with underscore",
+  display_name: "special-characters!@#123 - id with underscore (70_123)",
   channels: [ 
     { type: "chat", value: "medeiros.braga.bruno@gmail.com" },
     { type: "sms", value: "+5555984025819" },
