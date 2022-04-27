@@ -1590,7 +1590,29 @@ details: {
   content: "Invalid avatar link",
 },
   worker: "test-three@tdl.com"
-}
+},
+{
+  customer_id: 72,
+  avatar: "https://cdn2.iconfinder.com/data/0-456322-512.png",
+  display_name: "The Amazing Tester",
+  channels: [ 
+    { type: "email", value: "medeiros.braga.bruno@gmail.com" },
+    { type: "sms", value: "+5555984025819" },
+    { type: "whatsapp", value: "whatsapp:+5555984025819" },
+  ],
+  links: [
+    {
+    type: "Facebook",
+    value: "https://facebook.com",
+    display_name: "Social Media Profile",
+  },
+],
+details: {
+  title: "Information",
+  content: "Invalid avatar link",
+},
+  worker: "test-three@tdl.com",
+},
 ];
 
 const findWorkerForCustomer = async (customerNumber) =>
